@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .product-unit {
+    margin-bottom: 10px;
+    list-style: none;
+  }
+  
+  input {
+    width: 35px;
+    height: 35px;
+    font-size: 14px;
+    color: #484848;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #ededed;
+    vertical-align: middle;
+    margin-left: 10px;
+    padding: 0 4px;
+  }
+  
+  button {
+    height: 45px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #1bdd9c;
+    border-radius: 4px;
+    border: 1px solid #1dcf94;
+    vertical-align: middle;
+    margin: 10px 0 20px 0;
+  }
+  button:disabled {
+    opacity: 0.4;
+  }
+  span {
+    display: block;
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  span span {
+    display: inline-block;
+    font-weight: 900;
+  }
